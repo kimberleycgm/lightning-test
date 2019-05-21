@@ -2,8 +2,15 @@
  another change
 
 This is a Composer-based installer for the [Lightning](https://www.drupal.org/project/lightning) Drupal distribution. Welcome to the future!
+<<<<<<< HEAD
+Test file
+=======
 
-## Get Started
+changed this file 21.05.2019
+>>>>>>> c044b09be8004d219dc5dace36d3181f2ad7be07
+## update by andy
+
+## Get Started This is Kim's Readme file woooooooooooooooooooooooo!! 
 
 ```
 $ composer create-project acquia/lightning-project MY_PROJECT
