@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_example_decimal
+    - node.type.example_content_type
+id: node.example_content_type.field_example_decimal
+field_name: field_example_decimal
+entity_type: node
+bundle: example_content_type
+label: 'Example Decimal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

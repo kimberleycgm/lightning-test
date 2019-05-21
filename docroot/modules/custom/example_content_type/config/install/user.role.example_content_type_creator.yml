@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: example_content_type_creator
+label: 'Example Content Type creator'
+weight: 7
+is_admin: false

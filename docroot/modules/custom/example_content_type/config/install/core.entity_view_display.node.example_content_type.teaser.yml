@@ -1,0 +1,54 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.example_content_type.body
+    - field.field.node.example_content_type.field_example_boolean
+    - field.field.node.example_content_type.field_example_content
+    - field.field.node.example_content_type.field_example_date
+    - field.field.node.example_content_type.field_example_decimal
+    - field.field.node.example_content_type.field_example_email
+    - field.field.node.example_content_type.field_example_image
+    - field.field.node.example_content_type.field_example_link
+    - field.field.node.example_content_type.field_example_list
+    - field.field.node.example_content_type.field_example_reference_file
+    - field.field.node.example_content_type.field_example_taxonomy_term
+    - field.field.node.example_content_type.field_example_text_plain
+    - field.field.node.example_content_type.field_table
+    - node.type.example_content_type
+  module:
+    - text
+    - user
+id: node.example_content_type.teaser
+targetEntityType: node
+bundle: example_content_type
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_example_boolean: true
+  field_example_content: true
+  field_example_date: true
+  field_example_decimal: true
+  field_example_email: true
+  field_example_image: true
+  field_example_link: true
+  field_example_list: true
+  field_example_reference_file: true
+  field_example_taxonomy_term: true
+  field_example_text_plain: true
+  field_table: true
+  langcode: true

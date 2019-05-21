@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: example_content_type_reviewer
+label: 'Example Content Type reviewer'
+weight: 8
+is_admin: false

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_example_list
+    - node.type.example_content_type
+  module:
+    - options
+id: node.example_content_type.field_example_list
+field_name: field_example_list
+entity_type: node
+bundle: example_content_type
+label: 'Example List'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

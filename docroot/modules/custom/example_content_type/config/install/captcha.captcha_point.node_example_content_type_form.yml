@@ -1,0 +1,6 @@
+langcode: en
+status: false
+dependencies: {  }
+formId: node_example_content_type_form
+captchaType: default
+label: null
