@@ -3,6 +3,8 @@ NEW CODE CHANGES
 
 This is a Composer-based installer for the [Lightning](https://www.drupal.org/project/lightning) Drupal distribution. Welcome to the future!
 
+changed this file 21.05.2019
+
 ## Get Started
 
 ```
