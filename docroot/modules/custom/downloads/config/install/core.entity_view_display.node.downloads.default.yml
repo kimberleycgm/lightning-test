@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.downloads.field_downloaddescription
+    - field.field.node.downloads.field_downloadfileimage
+    - field.field.node.downloads.field_downloadimage
+    - node.type.downloads
+  module:
+    - file
+    - image
+    - user
+id: node.downloads.default
+targetEntityType: node
+bundle: downloads
+mode: default
+content:
+  field_downloaddescription:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_downloadfileimage:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_downloadimage:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_downloadimage
+field_name: field_downloadimage
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ecee5b9e-1d8f-47e0-96d3-90683b316a6f
+    alt: 'Downloaded Image File'
+    title: 'Downloded Image '
+    width: 75
+    height: 75
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

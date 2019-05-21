@@ -1,0 +1,14 @@
+name: Downloads
+description: 'Provides Downloads content type and related configuration. Downloaded files'
+type: module
+core: 8.x
+dependencies:
+  - content_moderation
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - user
+  - views

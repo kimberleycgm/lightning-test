@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.downloads.field_downloaddescription
+    - field.field.node.downloads.field_downloadfileimage
+    - node.type.downloads
+  module:
+    - user
+id: node.downloads.teaser
+targetEntityType: node
+bundle: downloads
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_downloaddescription: true
+  field_downloadfileimage: true
