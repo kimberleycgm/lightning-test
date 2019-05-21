@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:text:f00e3c50-9030-4d72-8eb1-3decd7278edb'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: downloadtheyellowcardapp
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:f00e3c50-9030-4d72-8eb1-3decd7278edb'
+settings:
+  id: 'block_content:f00e3c50-9030-4d72-8eb1-3decd7278edb'
+  label: 'Download the Yellow Card App!'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
