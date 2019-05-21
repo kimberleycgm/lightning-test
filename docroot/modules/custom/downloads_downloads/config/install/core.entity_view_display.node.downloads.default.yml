@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.downloads.body
+    - field.field.node.downloads.field_document
+    - field.field.node.downloads.field_thumbnail
+    - node.type.downloads
+  module:
+    - file
+    - user
+id: node.downloads.default
+targetEntityType: node
+bundle: downloads
+mode: default
+content:
+  field_document:
+    weight: 1
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_thumbnail: true
